@@ -3,110 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>workshop</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>ADDULA SONY - Portfolio</title> <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body class="bg-gray-100 font-sans">
-    <nav class="bg-white shadow">
-        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <div class="text-2xl font-bold text-blue-600">portfolio of sony</div>
-            <ul class="flex space-x-6">
-                <li><a href='#home' class='text-gray-700 hover:text-blue-600 font-medium'>Home</a></li>
-                <li><a href='#projects' class='text-gray-700 hover:text-blue-600 font-medium'>projects</a></li>
-                <li><a href='#certificates' class='text-gray-700 hover:text-blue-600 font-medium'>certificates</a></li>
-                <li><a href='#contact' class='text-gray-700 hover:text-blue-600 font-medium'>Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<body>
 
-    <section id="home" class="bg-blue-600 text-white py-20 text-center">
-        <div class="container mx-auto px-4">
-            <h1 class="text-5xl font-extrabold mb-4">portfolio of sony</h1>
-            <p class="text-xl mb-8">I'm Sony from 3rd year IT Department</p>
+    <header>
+        <div class="container">
+            <h1 class="logo">Portofolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>ADDULA SONY</h2>
+                <p class="tagline">Student | IT Department | Vignan Institutions</p>
+                <p>I'm a student from Vignan Institutions of Technology and Science, currently pursuing my 3rd year of B.Tech in the IT Department. I'm passionate about web development and always eager to learn new technologies and apply them to real-world problems.</p>
+                <h4>click to download Resume</h4>
+                <a href="resume.docx" class="btn" download>Resume</a>
+            </div>
         </div>
     </section>
 
-    <section id="projects" class="bg-gray-200 py-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-4xl font-bold text-gray-800 text-center mb-12">projects</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                    <h3 class="text-xl font-semibold text-gray-800"></h3>
-                    <p class="text-blue-600 mb-2">AI Ethicist</p>
-                    <p class="text-gray-600 text-sm">Leading expert in ethical AI development and responsible technology.</p>
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <h3>Smart Suggest - OTT Platform</h3>
+                    <p>An innovative OTT platform designed to set new standards for content delivery, user experience, and industry innovation. It offers personalized content suggestions and seamless streaming.</p>
+                    <h4>click to download project report</h4>
+                    <a href="smart suggest.pdf" class="btn" download>Download</a>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                    <img src="https://via.placeholder.com/150" alt="Speaker Name" class="rounded-full mx-auto mb-4 w-32 h-32 object-cover border-4 border-blue-500">
-                    <h3 class="text-xl font-semibold text-gray-800">Mr. Rajesh Kumar</h3>
-                    <p class="text-blue-600 mb-2">Blockchain Architect</p>
-                    <p class="text-gray-600 text-sm">Pioneering solutions in decentralized systems and blockchain security.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates-section">
+        <div class="container">
+            <h2>My Certificates</h2>
+            <div class="certificate-grid">
+                <div class="certificate-card">
+                    <h4> PythonEssentials1</h4> 
+                    <h4> Datascience Essentials with R</h4>
+                    <p>Issued by CISCO</p>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                    <img src="https://via.placeholder.com/150" alt="Speaker Name" class="rounded-full mx-auto mb-4 w-32 h-32 object-cover border-4 border-blue-500">
-                    <h3 class="text-xl font-semibold text-gray-800">Ms. Priya Singh</h3>
-                    <p class="text-blue-600 mb-2">Full Stack Developer</p>
-                    <p class="text-gray-600 text-sm">Innovator in scalable web applications and user experience.</p>
+                <div class="certificate-card">
+                    <h4> ForntEnd with HTML5 & CSS3</h4>
+                    <p>Issued by TASK.</p>
+                </div>
+                <div class="certificate-card">
+                    <h4> Pratical Html and Css </h4>
+                        <h4> Java Esstinals </h4>
+                        <h4> Java for Beginners </h4>
+                        <h4> Learn and Master C Programming For Absolute Beginners!</h4>
+                    <p>Issued by Infosys.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="achievements" class="container mx-auto px-4 py-16">
-        <h2 class="text-4xl font-bold text-gray-800 text-center mb-12">Our Impact & Achievements</h2>
-        <div class="grid md:grid-cols-2 gap-8 text-center">
-            <div class="bg-blue-100 p-8 rounded-lg shadow-md">
-                <div class="text-5xl font-bold text-blue-600 mb-3">500+</div>
-                <p class="text-xl text-gray-700">Satisfied Attendees Annually</p>
-            </div>
-            <div class="bg-blue-100 p-8 rounded-lg shadow-md">
-                <div class="text-5xl font-bold text-blue-600 mb-3">95%</div>
-                <p class="text-xl text-gray-700">Positive Feedback Rate</p>
-            </div>
-            <div class="bg-blue-100 p-8 rounded-lg shadow-md">
-                <div class="text-5xl font-bold text-blue-600 mb-3">15+</div>
-                <p class="text-xl text-gray-700">Industry-Leading Speakers</p>
-            </div>
-            <div class="bg-blue-100 p-8 rounded-lg shadow-md">
-                <div class="text-5xl font-bold text-blue-600 mb-3">100%</div>
-                <p class="text-xl text-gray-700">Skill Enhancement</p>
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>My Skills</h2>
+                    <p>HTML & CSS</p>
+                    <p>Java</p>
+                    <p>Python</p>
+                    <p>SQL</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out!</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:sonyreddyaddula@gmail.com">sonyreddyaddula@gmail.com</a></p>
+                <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/sonyreddy-addula-322312308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/addulasony</a></p>
+                <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/AddulaSony" target="_blank">github.com/addulasony</a></p>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="bg-white py-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-4xl font-bold text-gray-800 text-center mb-12">Get in Touch</h2>
-            <div class="max-w-xl mx-auto bg-gray-50 p-8 rounded-lg shadow-md">
-                <form action="#" method="POST" class="space-y-6">
-                    <div>
-                        <label for="name" class="block text-gray-700 text-sm font-medium mb-2">Name</label>
-                        <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name" required>
-                    </div>
-                    <div>
-                        <label for="email" class="block text-gray-700 text-sm font-medium mb-2">Email</label>
-                        <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="your.email@example.com" required>
-                    </div>
-                    <div>
-                        <label for="message" class="block text-gray-700 text-sm font-medium mb-2">Message</label>
-                        <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your message..." required></textarea>
-                    </div>
-                    <button type="submit" class="w-full bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition duration-300">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-gray-800 text-white py-8 text-center mt-16">
-        <div class="container mx-auto px-4">
-            <p>&copy; 2025 Tech Innovate Workshop. All rights reserved.</p>
-            <div class="flex justify-center space-x-6 mt-4">
-                <a href="#" class="hover:text-blue-400"><i class="fab fa-twitter"></i> Twitter</a>
-                <a href="#" class="hover:text-blue-400"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="#" class="hover:text-blue-400"><i class="fab fa-facebook"></i> Facebook</a>
-            </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ADDULA SONY. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
 </body>
 </html>
